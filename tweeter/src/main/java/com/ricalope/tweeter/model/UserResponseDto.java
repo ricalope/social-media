@@ -1,0 +1,20 @@
+package com.ricalope.tweeter.model;
+
+import java.sql.Timestamp;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class UserResponseDto {
+	
+	private String username;
+	
+	private ProfileDto profile;
+	
+	private Timestamp joined;
+
+}
